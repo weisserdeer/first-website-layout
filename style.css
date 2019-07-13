@@ -857,6 +857,11 @@ body {
     outline: 0.1px solid #f0f0f0;
 }
 
+.option-inactive:hover {
+    opacity: 1;
+    outline: none;
+}
+
 .product-description {
     width: 510px;
     float: left;
@@ -902,13 +907,18 @@ body {
     color: #ffffff;
     font-size: 22px;
     font-weight: 700;
-    line-height: 24.01px;
     text-transform: uppercase;
     letter-spacing: 4.4px;
     text-align: center;
     line-height: 71px;
     margin-top: 31px;
     margin-bottom: 49px;
+}
+
+.red-button-arrow {
+    position: absolute;
+    margin-top: 21px;
+    margin-left: 24px;
 }
 
 .red-link {
