@@ -1064,42 +1064,89 @@ body {
 }
 
 .linkbar-range {
-    height: 156px;
+    height: 55px;
+    padding-top: 71px;
+}
+
+.linkbar {
+    list-style-type: none;
+}
+
+.linkbar-list {
+    display: inline-block;
+    margin-right: 36px
+}
+
+.linkbar-link {
+    text-decoration: none;
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+}
+
+.linkbar-link:hover {
+    color: #212121;
+}
+
+.linkbar-link-active {
+    color: #212121;
+    border-bottom: 3px solid #212121!important;
+}
+
+.linkbar-link-underline {
+    border-bottom: 1px solid #6c6c6c;
+}
+
+.linkbar-link-underline:hover {
+    border-bottom: 3px solid #212121;
 }
 
 .range-product {
     width: 370px;
     height: 370px;
-    background-color: aqua;
     float: left;
     margin-left: 30px;
     margin-top: 30px;
 }
 
+.range-product:hover {
+    opacity: 0.5;
+    outline: 0.1px solid #f0f0f0;
+}
+
+
 .range-product-first {
     margin-left: 0px;
 }
 
-.range-product1, .range-product7 {
+.range-product1,
+.range-product7 {
     background-image: url(img/product-11.jpg);
 }
 
-.range-product2, .range-product8 {
+.range-product2,
+.range-product8 {
     background-image: url(img/product-21.jpg);
 }
 
-.range-product3, .range-product9 {
+.range-product3,
+.range-product9 {
     background-image: url(img/product-31.jpg);
 }
 
-.range-product4, .range-product10 {
+.range-product4,
+.range-product10 {
     background-image: url(img/product-41.jpg);
 }
 
-.range-product5, .range-product11 {
+.range-product5,
+.range-product11 {
     background-image: url(img/product-5.jpg);
 }
 
-.range-product6, .range-product12 {
+.range-product6,
+.range-product12 {
     background-image: url(img/product-6.jpg);
 }
