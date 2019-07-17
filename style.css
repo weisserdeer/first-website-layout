@@ -355,7 +355,6 @@ body {
     color: #212121;
     font-size: 18px;
     font-weight: 700;
-    line-height: 24px;
     text-transform: uppercase;
     width: 212px;
     height: 45px;
@@ -564,7 +563,6 @@ body {
     color: #212121;
     font-size: 18px;
     font-weight: 700;
-    line-height: 24px;
     text-transform: uppercase;
     width: 212px;
     height: 45px;
@@ -727,12 +725,7 @@ body {
 }
 
 ::placeholder {
-    color: #6c6c6c;
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 22px;
-    text-transform: lowercase;
-    padding: 19px;
+    padding-left: 19px;
     text-align: left;
 }
 
@@ -888,7 +881,6 @@ body {
 
 .product-price {
     color: #212121;
-    font-size: 36px;
     font-weight: 300;
     line-height: 48.02px;
     font-size: 48px;
@@ -896,6 +888,10 @@ body {
     text-transform: uppercase;
     text-align: center;
     margin-top: 25px;
+}
+
+.product-price-alt {
+    font-size: 36px;
 }
 
 .red-button {
@@ -1043,8 +1039,6 @@ body {
 .location-details {
     width: 276px;
     height: 138px;
-    color: #6c6c6c;
-    font-family: Montserrat;
     font-size: 14px;
     font-weight: 300;
     line-height: 20px;
